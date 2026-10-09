@@ -1,6 +1,12 @@
+import Box from "@mui/material/Box"
+import { GameSettings } from "../views/settings"
 
 function Home() {
-  return <h1>Index Page</h1>;
+  return (
+    <Box>
+      <GameSettings />
+    </Box>
+  )
 }
 
 export default Home

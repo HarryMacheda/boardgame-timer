@@ -7,9 +7,9 @@ interface MainLayoutProps {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <>
+    <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh", width: "100%", justifyContent: "center", alignItems: "center" }}>
       {children}
-    </>
+    </Box>
   );
 };
 
